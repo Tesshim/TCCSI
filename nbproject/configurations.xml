@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Arquivos de Cabeçalho"
+                   projectFiles="true">
+      <itemPath>/home/marcelo/NetBeansProjects/SingleMachineExact/ExactMethod.h</itemPath>
+      <itemPath>/home/marcelo/NetBeansProjects/SingleMachineExact/SMSP.h</itemPath>
+      <itemPath>/home/marcelo/NetBeansProjects/SingleMachineExact/SMSPSD.h</itemPath>
+      <itemPath>/home/marcelo/NetBeansProjects/SingleMachineExact/SMSPSDMO.h</itemPath>
+      <itemPath>/home/marcelo/NetBeansProjects/SingleMachineExact/SchedulingInstance.h</itemPath>
+      <itemPath>/home/marcelo/NetBeansProjects/SingleMachineExact/Utils.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Arquivos de Código-Fonte"
+                   projectFiles="true">
+      <itemPath>/home/marcelo/NetBeansProjects/SingleMachineExact/ExactMethod.cpp</itemPath>
+      <itemPath>/home/marcelo/NetBeansProjects/SingleMachineExact/SMSP.cpp</itemPath>
+      <itemPath>/home/marcelo/NetBeansProjects/SingleMachineExact/SMSPSD.cpp</itemPath>
+      <itemPath>/home/marcelo/NetBeansProjects/SingleMachineExact/SMSPSDMO.cpp</itemPath>
+      <itemPath>/home/marcelo/NetBeansProjects/SingleMachineExact/SchedulingInstance.cpp</itemPath>
+      <itemPath>/home/marcelo/NetBeansProjects/SingleMachineExact/Utils.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Arquivos de Recurso"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Arquivos de Teste"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Arquivos Importantes"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <standard>8</standard>
+        </ccTool>
+        <linkerTool>
+          <linkerAddLib>
+            <pElem>/arquivos/Professor/Pesquisa/Gurobi/gurobi702/linux64/lib/</pElem>
+          </linkerAddLib>
+          <commandLine>-m64 -g -std=c++11 -I /arquivos/Professor/Pesquisa/Gurobi/gurobi/702/linux64/include/ -L /arquivos/Professor/Pesquisa/Gurobi/gurobi/702/linux64/lib/ -lgurobi_g++5.2 -lgurobi70 -lm</commandLine>
+        </linkerTool>
+      </compileType>
+      <item path="/home/marcelo/NetBeansProjects/SingleMachineExact/ExactMethod.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/marcelo/NetBeansProjects/SingleMachineExact/ExactMethod.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/marcelo/NetBeansProjects/SingleMachineExact/SMSP.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/marcelo/NetBeansProjects/SingleMachineExact/SMSP.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/marcelo/NetBeansProjects/SingleMachineExact/SMSPSD.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/marcelo/NetBeansProjects/SingleMachineExact/SMSPSD.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/marcelo/NetBeansProjects/SingleMachineExact/SMSPSDMO.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/marcelo/NetBeansProjects/SingleMachineExact/SMSPSDMO.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/marcelo/NetBeansProjects/SingleMachineExact/SchedulingInstance.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/marcelo/NetBeansProjects/SingleMachineExact/SchedulingInstance.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/marcelo/NetBeansProjects/SingleMachineExact/Utils.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/marcelo/NetBeansProjects/SingleMachineExact/Utils.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="/home/marcelo/NetBeansProjects/SingleMachineExact/ExactMethod.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/marcelo/NetBeansProjects/SingleMachineExact/ExactMethod.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/marcelo/NetBeansProjects/SingleMachineExact/SMSP.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/marcelo/NetBeansProjects/SingleMachineExact/SMSP.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/marcelo/NetBeansProjects/SingleMachineExact/SMSPSD.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/marcelo/NetBeansProjects/SingleMachineExact/SMSPSD.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/marcelo/NetBeansProjects/SingleMachineExact/SMSPSDMO.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/marcelo/NetBeansProjects/SingleMachineExact/SMSPSDMO.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/marcelo/NetBeansProjects/SingleMachineExact/SchedulingInstance.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/marcelo/NetBeansProjects/SingleMachineExact/SchedulingInstance.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/marcelo/NetBeansProjects/SingleMachineExact/Utils.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/marcelo/NetBeansProjects/SingleMachineExact/Utils.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
